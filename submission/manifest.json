@@ -33,7 +33,7 @@
     },
     {
       "path": "assets/README.md",
-      "sha256": "05eeed2d082069687e17f6247adc7345b64beb56b8af80351fa98f277deba5ff"
+      "sha256": "03d581fcaabae528338842ff62a55857105304d639c3f31a551da386ac6d79b0"
     },
     {
       "path": "assets/screenshots/signals.jpg",
@@ -57,15 +57,15 @@
     },
     {
       "path": "docs/ARCHITECTURE.md",
-      "sha256": "160a0b4471201879c409f5bdc53145c232f5dbd26287428d8f907f5e2ee51ada"
+      "sha256": "f961008bb7875828bf855dc81a4ee4f30177a3cdfe477b8cf535640b6af9b241"
     },
     {
       "path": "docs/DATA-AND-LIMITATIONS.md",
-      "sha256": "2cb44d17b04e7c36a43d2041a06eaa51fc6ae832f7cc6bb7bc4ff05a003357f0"
+      "sha256": "ce644e2122b2ed056c3a240f534ce068ff0a6ab562e463929cf5fda5938538a3"
     },
     {
       "path": "docs/JUDGES-GUIDE.md",
-      "sha256": "62e42a14ffdb0667faece1838ad9099b7298ddc1a1097595811ae11bf966d520"
+      "sha256": "33cbefef68e42b1289821078276780716d45ee73c6267e3739046146a684c7b2"
     },
     {
       "path": "docs/PUBLIC-SCOPE.md",
@@ -77,7 +77,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "c9c7e876b4195be002ea21a4f7bbb280e09fb51dbc06c781e2f6a5e852eb04a4"
+      "sha256": "620043ca6d0e5735fd27edd5c222ec259cc848ec6d1569fd93da1e8105289344"
     },
     {
       "path": "scripts/verify-kit.mjs",
@@ -93,11 +93,11 @@
     },
     {
       "path": "submission/project-info.json",
-      "sha256": "a587a7b73f72e8e72c2d38d3e0b1f97f47cc03d4f22f26e5a3175f7ff9b5ae90"
+      "sha256": "7b39f4e376fc47f06e21cc40e50561677c3f83c0e67e59e8c69397f01730897a"
     },
     {
       "path": "submission/project-info.md",
-      "sha256": "8636537116c2ba5b792b389af886b8ac78683e27fe1d26c8fdb211ce7edd2884"
+      "sha256": "c09ea65fc8af1c1abab64615378032c0e3aa8b4389981d6673779992e10a2e33"
     },
     {
       "path": "tests/public-utilities.test.mjs",

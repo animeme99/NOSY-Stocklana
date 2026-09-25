@@ -4,7 +4,7 @@ Open [NOSY](https://nosy.pages.dev/) to inspect the live workspace or [Sample de
 
 ## Suggested review sequence
 
-1. **Traders:** search a name or wallet, select a period and open details. Compare available metrics and notice that missing values remain unavailable.
+1. **Traders:** search a KOL wallet or top FOMO wallet by name or address, select a period and open details. Compare available metrics and notice that missing values remain unavailable.
 2. **Tracker:** use the Sample controls to advance the scenario. Explore token participation and buying/selling observations.
 3. **Signals:** advance through the scenario and inspect how the sample presents the entry and subsequent price movement. Sample multiples are simulated price changes, not achieved trading returns.
 4. **Trending:** inspect attention across tokens and the available views. Sample scores demonstrate the interface; they do not prove predictive accuracy.

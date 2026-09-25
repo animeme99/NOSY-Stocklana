@@ -5,7 +5,7 @@ All images are reused from the existing NOSY project and its recorded product fo
 | Asset | Context |
 | --- | --- |
 | `cover.jpg` | Existing NOSY AI campaign thumbnail; includes the PEEP mascot and Sample demo call to action. |
-| `screenshots/traders.jpg` | Sample Traders interface displaying the dated 25 September 2026 public-profile snapshot. |
+| `screenshots/traders.jpg` | Sample Traders interface displaying the dated 25 September 2026 KOL wallet and top FOMO wallet snapshot. |
 | `screenshots/tracker.jpg` | Simulated activity in the Sample interface. |
 | `screenshots/signals.jpg` | Simulated signal outcomes; multiples are illustrative price changes. |
 | `screenshots/trending.jpg` | Simulated token attention and score presentation. |

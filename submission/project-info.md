@@ -6,13 +6,13 @@ NOSY AI
 
 ## Short Description
 
-NOSY turns public Solana wallet activity into a research workspace: compare traders, inspect buys and sells, explore token attention, and follow the evidence. Read-only, with a guided Sample demo and clear boundaries between live data and simulation.
+NOSY turns activity from KOL wallets and top FOMO wallets on Solana into a research workspace: compare traders, inspect buys and sells, and explore token attention. Read-only, with a guided Sample demo and clear boundaries between live data and simulation.
 
 ## Full Description (Markdown)
 
 ## Follow the wallets. Read the evidence.
 
-NOSY AI is a read-only Solana research workspace for people who want to understand the activity behind a token or a trader. It connects public wallet profiles, observed buys and sells, token attention and research reports in one interface, guided by PEEP, our one-eyed mascot.
+NOSY AI is a read-only Solana research workspace for people who want to understand the activity behind a token or a trader. It connects KOL wallet and top FOMO wallet profiles, observed buys and sells, token attention and research reports in one interface, guided by PEEP, our one-eyed mascot.
 
 ### The problem
 
@@ -20,7 +20,7 @@ A profitable screenshot rarely tells the whole story. Wallet activity is public,
 
 ### What you can explore
 
-- **Traders:** search public profiles, compare available reporting periods and inspect wallet details.
+- **Traders:** search KOL wallets and top FOMO wallets, compare available reporting periods and inspect wallet details.
 - **Tracker:** follow collected buying and selling observations and see participation around a token.
 - **Signals:** explore observed buying groups. The Sample demonstrates a four-buyer trigger, a locked entry and subsequent price movement, including losses.
 - **Trending:** explore token attention, flow and participation through several research views.
@@ -29,7 +29,7 @@ A profitable screenshot rarely tells the whole story. Wallet activity is public,
 
 ### How it works
 
-NOSY combines a vanilla JavaScript interface on Cloudflare Pages with a Node.js read API, background collection and stored observations. Helius supplies Solana observations; FOMO and GMGN provide public profile or reported wallet data; market sources add quote context. Deterministic analytics support the research views.
+NOSY combines a vanilla JavaScript interface on Cloudflare Pages with a Node.js read API, background collection and stored observations. Helius supplies Solana observations; FOMO and GMGN provide profile information or reported metrics for KOL wallets and top FOMO wallets; market sources add quote context. Deterministic analytics support the research views.
 
 NOSY AI is the product name and character; we do not claim a trained prediction model or autonomous trading agent. The application does not custody funds, request wallet signing or submit trades.
 
@@ -43,7 +43,7 @@ No wallet connection is required. Start with Traders, use Next step to advance t
 
 ### What is live, simulated and next
 
-Live views use collected public data and may be partial or delayed. The Sample combines a dated public trader snapshot with simulated market activity. Sample trades, signal multiples and stock pairs are illustrative, not live results or investment returns.
+Live views use collected public data and may be partial or delayed. The Sample combines a dated KOL wallet and top FOMO wallet snapshot with simulated market activity. Sample trades, signal multiples and stock pairs are illustrative, not live results or investment returns.
 
 Complete historical cost basis, closed-position accounting, qualified mainnet signal history and verified live stock-pair coverage remain unfinished. Missing data stays unavailable rather than being presented as zero.
 

@@ -4,7 +4,7 @@
 
 <h1 align="center">NOSY AI · Stocklana</h1>
 <p align="center"><strong>Follow the wallets. Read the evidence.</strong></p>
-<p align="center">A read-only Solana research workspace that brings public trader profiles, wallet activity and token context into one connected view.</p>
+<p align="center">A read-only Solana research workspace that brings KOL wallet and top FOMO wallet profiles, wallet activity and token context into one connected view.</p>
 <p align="center">
   <a href="https://nosy.pages.dev/">Open NOSY</a> ·
   <a href="https://nosy.pages.dev/showcase/">Try the Sample demo</a> ·
@@ -24,7 +24,7 @@ NOSY connects those views. Start with a trader, inspect their observed activity,
 
 | Surface | What to try | Current scope |
 | --- | --- | --- |
-| **Traders** | Search public profiles, compare available periods, open wallet details. | Public identities and provider-reported metrics; some fields and histories are incomplete. |
+| **Traders** | Search KOL wallets and top FOMO wallets, compare available periods, open wallet details. | KOL and top FOMO wallet identities and provider-reported metrics; some fields and histories are incomplete. |
 | **Tracker** | Inspect buys, sells and token-level participation. | Collected observations; collection coverage and price availability vary. |
 | **Signals** | Explore groups of tracked buyers and inspect the Sample scenario's entry/outcome workflow. | Live observed groups are distinct from fully qualified signals. Locked entries and subsequent outcomes are demonstrated in simulation. |
 | **Trending** | Explore token attention, flow and participation through several views. | Rankings depend on available evidence; incomplete inputs can leave scores unavailable. |
@@ -39,13 +39,13 @@ NOSY connects those views. Start with a trader, inspect their observed activity,
 4. Open **Scan a mint** and choose a token already present in the sample. Inspect the report and its available evidence.
 5. Compare the sample with the [live workspace](https://nosy.pages.dev/). Live coverage may be partial or delayed; an empty state is meaningful.
 
-The Sample uses a captured public trader dataset dated **25 September 2026** alongside **simulated market activity**. Its trades, signal multiples, prices and stock-pair examples are not live results or investment returns. The interface labels the sample explicitly.
+The Sample uses a captured KOL wallet and top FOMO wallet dataset dated **25 September 2026** alongside **simulated market activity**. Its trades, signal multiples, prices and stock-pair examples are not live results or investment returns. The interface labels the sample explicitly.
 
 ## Inside the workspace
 
-**Traders — captured public-profile snapshot, 25 September 2026.** Figures are dated provider-reported values, not current account balances or independently verified profits.
+**Traders — captured KOL wallet and top FOMO wallet snapshot, 25 September 2026.** Figures are dated provider-reported values, not current account balances or independently verified profits.
 
-![NOSY Traders table displaying a dated public trader snapshot and unavailable closed-position metrics](assets/screenshots/traders.jpg)
+![NOSY Traders table displaying a dated KOL wallet and top FOMO wallet snapshot and unavailable closed-position metrics](assets/screenshots/traders.jpg)
 
 <table>
   <tr>
@@ -64,7 +64,7 @@ These are existing application captures, not freshly measured live results. [Ass
 
 ```mermaid
 flowchart LR
-    A[Public wallet and market sources] --> B[Read-only collection]
+    A[KOL wallets, top FOMO wallets and market sources] --> B[Read-only collection]
     B --> C[Stored observations]
     C --> D[Read API]
     D --> E[NOSY browser workspace]
@@ -72,7 +72,7 @@ flowchart LR
     E --> G[Wallet and token research]
 ```
 
-The application uses **JavaScript and Node.js**, a vanilla DOM interface, a read API and background collection. The browser is hosted on **Cloudflare Pages**; the backend uses Node and SQLite where needed. Helius supplies Solana observations; FOMO and GMGN supply public profile or reported wallet information; market sources provide quote context. These are integrations, not endorsements.
+The application uses **JavaScript and Node.js**, a vanilla DOM interface, a read API and background collection. The browser is hosted on **Cloudflare Pages**; the backend uses Node and SQLite where needed. Helius supplies Solana observations; FOMO and GMGN supply profile information or reported metrics for KOL wallets and top FOMO wallets; market sources provide quote context. These are integrations, not endorsements.
 
 The sample runs an authored scenario separately from live data. The application is read-only: no custody, signing or submitted trades. Jupiter actions are external handoffs where applicable; fictional sample actions do not execute trades.
 

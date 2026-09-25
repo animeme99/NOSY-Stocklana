@@ -4,11 +4,11 @@
 
 | Kind | Meaning | What it does not establish |
 | --- | --- | --- |
-| Public profile / provider metric | A value reported by an upstream source for a stated period or snapshot. | Independently reconstructed PnL or a complete account history. |
+| KOL / top FOMO wallet profile or provider metric | A value reported by an upstream source for a stated period or snapshot. | Independently reconstructed PnL or a complete account history. |
 | Collected observation | An observed transaction, holding or market value. | Complete coverage, fully qualified accounting or an executable trade. |
 | Simulated sample | Authored market activity used to demonstrate product behavior. | Live trading results, predictive accuracy or actual investment returns. |
 
-The Traders capture in this kit uses a public-profile snapshot dated 25 September 2026. Tracker, Signals and Trending captures show a simulated market. The scan image shows the Sample interface. All financial figures in those simulation screens are illustrative.
+The Traders capture in this kit uses a KOL wallet and top FOMO wallet snapshot dated 25 September 2026. Tracker, Signals and Trending captures show a simulated market. The scan image shows the Sample interface. All financial figures in those simulation screens are illustrative.
 
 ## Current limitations
 
