@@ -1,0 +1,12 @@
+{
+  "name": "nosy-stocklana-judging-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Selected NOSY source, product documentation and assets for Stocklana judging.",
+  "engines": { "node": ">=22.16.0" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "verify": "node scripts/verify-kit.mjs"
+  }
+}
